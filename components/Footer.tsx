@@ -82,7 +82,10 @@ export function Footer() {
           <span className="w-full h-[0.5px] bg-slate-200 block"></span>
           <p className="text-center">
             &#169;{new Date().getFullYear()}{" "}
-            <a href="#" className="text-green-500 underline">
+            <a
+              href="https://cargopip.vercel.app"
+              className="text-green-500 underline"
+            >
               {" "}
               Abdelhamid Boudjit
             </a>{" "}
