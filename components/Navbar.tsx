@@ -24,7 +24,7 @@ export function Navbar() {
         {show && (
           <>
             <NavButtons />
-            <NavLinks links={["home", "about", "services", "contact"]} />
+            <NavLinks links={["about", "services", "contact"]} />
           </>
         )}
         <DesktopNavLinks />
